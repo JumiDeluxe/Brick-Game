@@ -1,0 +1,326 @@
+html {
+    font-family: 'Courier New';
+}
+    body {
+        background-color: rgb(28, 28, 31);
+        overflow: hidden;
+    }
+
+    #panel_lewy_glowny {
+        float: left;
+        height: 100%;
+        width: 15%;
+        position: absolute;
+        left: 2%;
+        padding: 25px;
+		padding-top: 5px;
+    }
+
+    #panel_prawy_glowny {
+        float: right;
+        height: 100%;
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        padding: 25px;
+		padding-top: 5px;
+    }
+    #panel_glowny {
+        text-align: center;
+        width: 55%;
+        padding: 40px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #panel_glowny a {
+        float: right;
+        margin-right: 15%;
+    }
+    #panel_personalizacji a {
+        padding: 100px;
+        margin: 90px;
+    }
+    #panel_glowny form {
+        float: left;
+    }
+    #panel_glowny hr {
+        clear: both;
+    }
+    #obudowa {
+        position: absolute;
+        left: 40%;
+        height: 910px;
+        width: 370px;
+        border-radius: 30px;
+        box-shadow: inset 0px 0px 10px 10px rgb(34, 34, 34);
+    }
+
+    #kwadraty {
+        position: relative;
+        left: 30px;
+        top: 30px;
+        width: 310px;
+        height: 300px;
+    }
+
+    #ramka {
+        position: relative;
+        top: 6px;
+        left: 38px;
+        height: 280px;
+        width: 230px;
+    }
+
+    #ekran {
+        background-color: #8e9c91;
+        height: 180px;
+        width: 130px;
+        position: relative;
+        left: 50px;
+        top: 30px;
+        box-shadow: 0 0 15px 15px #302e2e;
+    }
+	
+	#tetris {
+		position: relative;
+		left: 1px;
+        top:-247px;
+	}
+	
+	#ramka_gra {
+		border: 1px solid black;
+		height: 162px;
+		width: 81px;
+		position: relative;
+		top: 18px;
+		left: 0px;
+	}
+	
+	#a {
+		position: relative;
+		top: -660px;
+		left: 90px;
+        font-size: 10px;
+        
+	}
+
+    #zgiecie {
+        position: relative;
+        top: 70px;
+        height: 110px;
+        width: 370px;
+        box-shadow: 0px 0px 20px rgb(36, 35, 35), inset 0px 0px 20px rgb(41, 41, 41);
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #dolna_czesc {
+        position: relative;
+        top: 70px;
+        height: 340px;
+        padding: 30px;
+        width: 310px;
+    }
+
+    .przycisk_maly {
+        position: relative;
+        float: left;
+        margin: 15px;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px #000, inset 0px 0px 15px #fff;
+    }
+
+    #przyciski_male {
+        position: relative;
+        top: -20px;
+        left: 30px;
+    }
+
+    #przycisk_glowny {
+        position: relative;
+        top: -60px;
+        left: 200px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px #000, inset 0px 0px 15px #fff;
+    }
+
+    #przyciski_sterowania {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        height: 134px;
+        width: 140px;
+    }
+
+    .przycisk_sterowania {
+        box-shadow: 0px 0px 10px 0px #000, inset 0px 0px 15px 0px #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    #ps1 {
+        position: relative;
+        left: 44px;
+        top: -10px;
+    }
+
+    #ps2 {
+        position: relative;
+        top: -10px;
+        left: -10px;
+    }
+
+    #ps3 {
+        position: relative;
+        top: -59px;
+        left: 8px;
+        float: right;
+    }
+
+    #ps4 {
+        clear: both;
+        position: relative;
+        top: -56px;
+        left: 43px;
+    }
+
+    h1 {
+        position: relative;
+        top: -30px;
+        float: right;
+        transform: rotate(-35deg);
+    }
+
+    img {
+        float: right;
+        height: 80px;
+        width: 80px;
+    }
+
+    #linia_konsolka {
+        position: relative;
+        top: 20px;
+        margin: 20px;
+    }
+
+    #strzalki {
+        position: relative;
+        left: 56px;
+        float: left;
+        bottom: 45px;
+        height: 25px;
+        width: 25px;
+    }
+
+    .kwpusty {
+        width: 10px;
+        height: 12px;
+        border: 1px;
+    }
+
+    .kwpelny {
+        width: 10px;
+        height: 12px;
+        border: 1px;
+    }
+
+    #tab1 {
+        margin-top: 6px;
+        margin-left: 3px;
+        float: left;
+    }
+
+    #tab2 {
+        float: right;
+        position: relative;
+        left: -3px;
+        top: -280px;
+    }
+
+    #autor {
+        position: relative;
+        top: -15px;
+        left: 150px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    #super {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -15px;
+        left: 48px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #instrukcje p{
+        font-size: 28px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    h3 {
+        text-align: center;
+    }
+	li{
+		line-height: 0.5;
+    }
+    #panel_personalizacji{
+        float: left;
+        padding: 40px;
+        position: absolute;
+        right: 30px;
+        width: 50%;
+        height: 100%;
+    }
+    #ustawienia_kolorow{
+        visibility: hidden;
+        padding: 20px;
+    }
+    #panel_personalizacji #ustawienia_kolorow{
+        visibility: visible;
+    }
+    #personalizacja_formularz {
+        padding: 15px;
+    }
+    #instrukcje_personalizacji {
+        padding: 20px;
+        margin-bottom: 50px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    #styl_sesji {
+        float: left;
+        padding: 5px;
+    }
+    #wybor_kolorow {
+        margin: auto;
+        padding: 5px;
+    }
+    .tab_k {
+        border: 1px solid white;
+        height: 45px;
+        width: 40px;
+    }
+
